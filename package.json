@@ -1,0 +1,13 @@
+{
+  "name": "x402-king-of-the-hill",
+  "version": "1.0.0",
+  "description": "x402 King of the Hill game contract on Base",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network base"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0"
+  }
+}
